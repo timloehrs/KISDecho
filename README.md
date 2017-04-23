@@ -1,4 +1,4 @@
-# KISDAlexa
+# KISDecho
 
 Speech assistant for the KISD, which will be made available in the form of an Alexa Skill to everybody with such a device.
 
