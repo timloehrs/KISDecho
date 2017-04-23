@@ -48,12 +48,12 @@ function getWelcomeResponse(callback) {
     // If we wanted to initialize the session to have some attributes we could add those here.
     const sessionAttributes = {};
     const cardTitle = 'Welcome';
-    const speechOutput = 'Willkommen an der KISD ' +
-        'Bitte sag mir welcher dein Lieblingskurs hier ist.';
+    const speechOutput = 'Welcome at KISD ' +
+        'Please tell me what your favorite course is.';
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
-    const repromptText = 'Bitte sag mir deinen Lieblingskurs in dem du sagst ' +
-        'Mein Lieblingskurs ist Typografie';
+    const repromptText = 'Please tell me your favorite course by saying ' +
+        'My favorite course is Typography';
     const shouldEndSession = false;
 
     callback(sessionAttributes,
@@ -62,7 +62,7 @@ function getWelcomeResponse(callback) {
 
 function handleSessionEndRequest(callback) {
     const cardTitle = 'Session Ended';
-    const speechOutput = 'Danke, dass du mit mir gesprochen hast!';
+    const speechOutput = 'Thanks for speaking with me!';
     // Setting this to true ends the session and exits the skill.
     const shouldEndSession = true;
 
