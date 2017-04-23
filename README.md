@@ -1,5 +1,5 @@
 # KISDAlexa
 
-Sprachassistent für die KISD, welcher als Skill jedem zugänglich gemacht werden soll.
+Speech assistant for the KISD, which will be made available in the form of an Alexa Skill to everybody with such a device.
 
-Selbstinitiiertes Projekt von Yasmin Anilgan, Tim Löhrs und mir
+Self-initiated project of Yasmin Anilgan, Tim Löhrs and me.
