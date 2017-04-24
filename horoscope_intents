@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {
+      "intent": "GetHoroscope",
+      "slots": [
+        {
+          "name": "Sign",  //hier könnten zb, Kurse hinterlegt werden.
+          "type": "LIST_OF_SIGNS"
+        },
+        {
+          "name": "Date",  //und hier dann die jeweiligen Räume, dann halt ohne den "AMAZON.DATE"
+          "type": "AMAZON.DATE"
+        }
+      ]
+    }
+  ]
+}
